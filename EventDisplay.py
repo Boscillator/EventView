@@ -8,7 +8,7 @@ print("Event Display Program Loaded!")
 print("Writen by Fred Buchanan (oscillator.b@gmail.com)")
 
 print("Reading Data")
-df = pd.read_csv('output/event_0.csv')
+df = pd.read_csv('input/event_0.csv')
 df = df[df["id"]>50]
 
 print("Inizilizing Graphics")
