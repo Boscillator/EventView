@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>f72f06d6-606f-4f93-9b6c-26c38f97f640</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>EventDisplay.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>EventDisplay</Name>
+    <RootNamespace>EventDisplay</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="EventDisplay.py" />
+    <Compile Include="ParticalTree.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="output\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="output\event_0.csv" />
+    <Content Include="output\event_1.csv" />
+    <Content Include="output\event_10.csv" />
+    <Content Include="output\event_11.csv" />
+    <Content Include="output\event_12.csv" />
+    <Content Include="output\event_13.csv" />
+    <Content Include="output\event_14.csv" />
+    <Content Include="output\event_15.csv" />
+    <Content Include="output\event_16.csv" />
+    <Content Include="output\event_17.csv" />
+    <Content Include="output\event_18.csv" />
+    <Content Include="output\event_19.csv" />
+    <Content Include="output\event_2.csv" />
+    <Content Include="output\event_20.csv" />
+    <Content Include="output\event_21.csv" />
+    <Content Include="output\event_22.csv" />
+    <Content Include="output\event_23.csv" />
+    <Content Include="output\event_24.csv" />
+    <Content Include="output\event_25.csv" />
+    <Content Include="output\event_26.csv" />
+    <Content Include="output\event_27.csv" />
+    <Content Include="output\event_28.csv" />
+    <Content Include="output\event_29.csv" />
+    <Content Include="output\event_3.csv" />
+    <Content Include="output\event_30.csv" />
+    <Content Include="output\event_31.csv" />
+    <Content Include="output\event_32.csv" />
+    <Content Include="output\event_33.csv" />
+    <Content Include="output\event_34.csv" />
+    <Content Include="output\event_35.csv" />
+    <Content Include="output\event_36.csv" />
+    <Content Include="output\event_37.csv" />
+    <Content Include="output\event_38.csv" />
+    <Content Include="output\event_39.csv" />
+    <Content Include="output\event_4.csv" />
+    <Content Include="output\event_40.csv" />
+    <Content Include="output\event_41.csv" />
+    <Content Include="output\event_42.csv" />
+    <Content Include="output\event_43.csv" />
+    <Content Include="output\event_44.csv" />
+    <Content Include="output\event_45.csv" />
+    <Content Include="output\event_46.csv" />
+    <Content Include="output\event_47.csv" />
+    <Content Include="output\event_48.csv" />
+    <Content Include="output\event_49.csv" />
+    <Content Include="output\event_5.csv" />
+    <Content Include="output\event_50.csv" />
+    <Content Include="output\event_51.csv" />
+    <Content Include="output\event_52.csv" />
+    <Content Include="output\event_53.csv" />
+    <Content Include="output\event_54.csv" />
+    <Content Include="output\event_55.csv" />
+    <Content Include="output\event_56.csv" />
+    <Content Include="output\event_57.csv" />
+    <Content Include="output\event_58.csv" />
+    <Content Include="output\event_59.csv" />
+    <Content Include="output\event_6.csv" />
+    <Content Include="output\event_60.csv" />
+    <Content Include="output\event_61.csv" />
+    <Content Include="output\event_62.csv" />
+    <Content Include="output\event_63.csv" />
+    <Content Include="output\event_64.csv" />
+    <Content Include="output\event_65.csv" />
+    <Content Include="output\event_66.csv" />
+    <Content Include="output\event_67.csv" />
+    <Content Include="output\event_68.csv" />
+    <Content Include="output\event_69.csv" />
+    <Content Include="output\event_7.csv" />
+    <Content Include="output\event_70.csv" />
+    <Content Include="output\event_71.csv" />
+    <Content Include="output\event_72.csv" />
+    <Content Include="output\event_73.csv" />
+    <Content Include="output\event_74.csv" />
+    <Content Include="output\event_75.csv" />
+    <Content Include="output\event_76.csv" />
+    <Content Include="output\event_77.csv" />
+    <Content Include="output\event_78.csv" />
+    <Content Include="output\event_79.csv" />
+    <Content Include="output\event_8.csv" />
+    <Content Include="output\event_80.csv" />
+    <Content Include="output\event_81.csv" />
+    <Content Include="output\event_82.csv" />
+    <Content Include="output\event_83.csv" />
+    <Content Include="output\event_84.csv" />
+    <Content Include="output\event_85.csv" />
+    <Content Include="output\event_86.csv" />
+    <Content Include="output\event_87.csv" />
+    <Content Include="output\event_88.csv" />
+    <Content Include="output\event_89.csv" />
+    <Content Include="output\event_9.csv" />
+    <Content Include="output\event_90.csv" />
+    <Content Include="output\event_91.csv" />
+    <Content Include="output\event_92.csv" />
+    <Content Include="output\event_93.csv" />
+    <Content Include="output\event_94.csv" />
+    <Content Include="output\event_95.csv" />
+    <Content Include="output\event_96.csv" />
+    <Content Include="output\event_97.csv" />
+    <Content Include="output\event_98.csv" />
+    <Content Include="output\event_99.csv" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
